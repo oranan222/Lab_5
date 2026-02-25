@@ -71,12 +71,12 @@ classDiagram
     User <|-- StarterMember
     User <|-- Student
     User <|-- Teacher
-    User <|-- GeneralPerson
+    User <|-- Guest
 
     Member <|.. StarterMember
     Member <|.. Student
     Member <|.. Teacher
-    Member <|.. GeneralPerson
+    Member <|.. Guest
 
     Speaker <|.. Teacher
-    Speaker <|.. GeneralPerson
+    Speaker <|.. Guest
