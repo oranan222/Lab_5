@@ -57,7 +57,7 @@ classDiagram
         + void ShowInfo()
     }
 
-    class GeneralPerson {
+    class Guest {
         - string workplace
         - string position
         + void SetGeneralData(string workplace, string position)
